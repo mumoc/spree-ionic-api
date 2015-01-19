@@ -45,3 +45,6 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-4-stable'
 
 gem 'rack-cors', require: 'rack/cors'
 gem 'pg', group: :production
+
+gem "fog", "~>1.20", require: "fog/aws/storage"
+gem "asset_sync"
