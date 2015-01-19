@@ -48,3 +48,6 @@ gem 'pg', group: :production
 
 gem "fog", "~>1.20", require: "fog/aws/storage"
 gem "asset_sync"
+gem 'rails_12factor', group: :production
+gem 'aws-sdk'
+
